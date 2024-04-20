@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 96 96"
+   fill="#FFF"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="C:\Users\Lars\datscope.png"
+   inkscape:export-xdpi="64"
+   inkscape:export-ydpi="64"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18">
+    <rect
+       x="19.645161"
+       y="31.935484"
+       width="104.32258"
+       height="70.064517"
+       id="rect60" />
+    <rect
+       x="18.096774"
+       y="30.193548"
+       width="59.419355"
+       height="56.419355"
+       id="rect54" />
+    <rect
+       x="18.096774"
+       y="30.580645"
+       width="59.612903"
+       height="56.322581"
+       id="rect48" />
+    <rect
+       x="-32.612903"
+       y="-16.935484"
+       width="161.41935"
+       height="129.87097"
+       id="rect42" />
+    <rect
+       x="18.967742"
+       y="31.741935"
+       width="58.548391"
+       height="55.16129"
+       id="rect36" />
+    <rect
+       x="19.354839"
+       y="32.032258"
+       width="56.709677"
+       height="51.483871"
+       id="rect30" />
+    <rect
+       x="20.419355"
+       y="31.645161"
+       width="55.451613"
+       height="51.774194"
+       id="rect24" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="10.333333"
+     inkscape:cx="48"
+     inkscape:cy="48"
+     inkscape:window-x="3829"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <path
+     d="M60.9579,8h-42.688C17.5685,8,17,8.5685,17,9.2698v77.4603C17,87.4315,17.5685,88,18.2698,88h59.6825 c0.7013,0,1.2698-0.5685,1.2698-1.2698V26.2643c0-0.7858-0.3122-1.5395-0.8678-2.0951L63.053,8.8678 C62.4974,8.3122,61.7437,8,60.9579,8z"
+     id="path10" />
+  <path
+     fill="#979593"
+     d="M79.1211,24.707L61.293,6.8789C60.7266,6.312,59.9736,6,59.1719,6H19c-1.6543,0-3,1.3457-3,3v78 c0,1.6543,1.3457,3,3,3h58c1.6543,0,3-1.3457,3-3V26.8281C80,26.0273,79.6875,25.2739,79.1211,24.707z M60,8.4141L77.5857,26H61 c-0.5518,0-1-0.4482-1-1V8.4141z M77,88H19c-0.5518,0-1-0.4482-1-1V9c0-0.5518,0.4482-1,1-1h39v17c0,1.6543,1.3457,3,3,3h17v59 C78,87.5518,77.5518,88,77,88z"
+     id="path12" />
+  <text
+     xml:space="preserve"
+     id="text22"
+     style="font-size:24px;line-height:1.25;font-family:'Fontin SmallCaps';-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect24);"><tspan
+       style="visibility:hidden"
+       x="20.419922"
+       y="105.61523"><tspan
+         dx="0 16.242188 14.15625 12.972656 14.15625"
+         style="font-size:24px;fill:#000000">DATA
+</tspan></tspan><tspan
+       style="visibility:hidden"
+       x="20.419922"
+       y="135.61523"><tspan
+         dx="0 16.242188 7.6523438 11.390625"
+         style="font-size:24px;fill:#000000">DIFF</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text28"
+     style="font-size:40px;line-height:1.25;font-family:'Fontin SmallCaps';-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect30);"><tspan
+       style="visibility:hidden"
+       x="19.355469"
+       y="120.50781"><tspan
+         dx="0 27.070312 23.59375"
+         style="fill:#000000">DAT</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text34"
+     style="font-size:24px;line-height:1.25;font-family:'Fontin SmallCaps';-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect36);"
+     x="21.835798"
+     y="0"><tspan
+       style="visibility:hidden"
+       x="18.966797"
+       y="109.09766"><tspan
+         dx="0 16.242188 14.15625 12.972656 16.242188 7.6523438 11.390625"
+         style="text-align:center;text-anchor:middle;fill:#000000">DATDIFF</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text40"
+     style="line-height:1.25;font-family:'Fontin SmallCaps';font-size:24px;-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect42);" />
+  <text
+     xml:space="preserve"
+     id="text46"
+     style="line-height:1.25;font-family:'Fontin SmallCaps';font-size:24px;-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect48);" />
+  <text
+     xml:space="preserve"
+     id="text52"
+     style="font-size:24px;line-height:1.25;font-family:'Fontin SmallCaps';-inkscape-font-specification:'Fontin SmallCaps, ';white-space:pre;shape-inside:url(#rect54);" />
+  <text
+     xml:space="preserve"
+     id="text58"
+     style="font-size:21.3333px;line-height:1.25;font-family:'Fontin SmallCaps';-inkscape-font-specification:'Fontin SmallCaps, ';text-align:center;white-space:pre;shape-inside:url(#rect60)"
+     x="21.835798"
+     y="0"
+     transform="translate(-23.903226,-3.8709677)"><tspan
+       x="52.529653"
+       y="51.664682"><tspan
+         style="font-size:21.3333px;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000">DAT
+</tspan></tspan><tspan
+       x="41.711962"
+       y="78.331308"><tspan
+         style="font-size:21.3333px;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000">SCOPE</tspan></tspan></text>
+</svg>
