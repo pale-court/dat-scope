@@ -1,0 +1,44 @@
+dat-diff {
+    display: block;
+    margin-bottom: var(--pico-block-spacing-vertical);
+    padding: var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);
+    border-radius: var(--pico-border-radius);
+    background: var(--pico-card-background-color);
+    box-shadow: var(--pico-card-box-shadow);
+}
+
+.diff-head{
+    margin-top: 1rem;
+}
+
+.removed{
+    background-color: rgba(164, 18, 18, 0.15);
+}
+.removed::before {
+    content: "- ";
+}
+
+.added{
+    background-color: rgba(69, 164, 18, 0.15);
+}
+.added::before {
+    content: "+ ";
+}
+
+@media (prefers-color-scheme: dark) {
+    .added{
+        color: #58d217;
+    }
+    .removed{
+        color: #ff8383;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .added{
+        color: #26590a;
+    }
+    .removed{
+        color: #8f1010;
+    }
+}

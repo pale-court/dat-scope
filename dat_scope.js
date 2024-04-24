@@ -10,7 +10,7 @@ const desired_from = doc_params.get("from");
 const desired_to = doc_params.get("to");
 
 const build_data = {};
-var from_bid, to_bid;
+let from_bid, to_bid;
 
 const field_labels = {
     fixed_size: "Fixed section size",
@@ -31,18 +31,34 @@ class DatDiff extends HTMLElement {
     connectedCallback() {
         const from_file = build_data[from_bid].files[this.attr.file];
         const to_file = build_data[to_bid].files[this.attr.file];
+
         if (from_file && !to_file) {
             this.innerHTML = `${from_file.pretty_name} removed`;
+            this.classList.add('removed');
         } else if (!from_file && to_file) {
             this.innerHTML = `${to_file.pretty_name} added`;
+            this.classList.add('added');
         } else {
+            this.classList.add('diff');
             this.innerHTML = `${to_file.pretty_name} changed<br>`;
+
             for (const [field, label] of Object.entries(field_labels)) {
                 console.log(field);
                 console.log(from_file);
-                if (from_file.stats[field] != to_file.stats[field]) {
+                if (from_file.stats[field] !== to_file.stats[field]) {
                     const d = document.createElement('div');
-                    d.textContent = `${label}: ${from_file.stats[field]} became ${to_file.stats[field]}`;
+                    d.classList.add("diff-head")
+                    const prev=document.createElement('div');
+                    prev.classList.add("removed")
+                    prev.textContent = `${from_file.stats[field]}`
+
+                    const curr=document.createElement('div');
+                    curr.classList.add("added")
+                    curr.textContent = `${to_file.stats[field]}`
+
+                    d.textContent = `${label}`;
+                    d.appendChild(prev)
+                    d.appendChild(curr)
                     this.appendChild(d);
                 }
             }
@@ -65,7 +81,7 @@ async function DownloadBuild(bid) {
     }
     const resp = await fetch(new URL(`builds/build-${bid}.json`, dat_meta_root));
     const js = await resp.json();
-    var newFiles = {};
+    const newFiles = {};
     Object.keys(js.files).forEach(f => {
         const fields = js.files[f];
         const dat_re = /^data\/(\w+)\.dat(?:64)?$/i;
@@ -88,18 +104,19 @@ async function SyncBuilds() {
     console.log(doc_url.searchParams);
     window.history.pushState({ path: doc_url.toString() }, "", doc_url);
 
+    let build_from;
+    let build_to;
     try {
         const resps = await Promise.all([DownloadBuild(from_bid), DownloadBuild(to_bid)]);
         build_from = resps[0];
         build_to = resps[1];
         console.log(resps);
-    }
-    catch (e) {
+    } catch (e) {
         build_from = null;
         build_to = null;
     }
 
-    var diff_host = document.querySelector("#diff-host");
+    const diff_host = document.querySelector("#diff-host");
 
     // Remove old diff elements
     while (diff_host.firstChild) {
@@ -118,7 +135,7 @@ async function SyncBuilds() {
             const from_file = build_from.files[file];
             const to_file = build_to.files[file];
             if (from_file && to_file) {
-                var allSame = true;
+                let allSame = true;
                 for (const field of Object.keys(field_labels)) {
                     if (from_file.stats[field] != to_file.stats[field]) {
                         allSame = false;
